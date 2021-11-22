@@ -1,0 +1,42 @@
+.avatarIcon{
+    margin-right: 10px;
+    margin-left: 5px;
+    width: 37px;
+    border-radius: 100%;
+    height: 37px;
+}
+.avatardropdown{
+    min-width: 160px;
+}
+.avatardropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+.avatar-options {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right:0;
+    z-index: 5;
+    font-size: 14px;
+}
+.avatar-options a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.avatar-options a:hover {background-color: #f1f1f1}
+.avatardropdown:hover .avatar-options {
+    display: block;
+}
+.avatardropdown:hover .avatardropbtn {
+    background-color: #555;
+}
